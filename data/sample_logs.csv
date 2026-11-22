@@ -1,0 +1,8 @@
+timestamp,event_type,username,source_ip,message
+2024-01-15 09:00:00,LOGIN_SUCCESS,bob,10.0.0.5,normal login
+2024-01-15 09:01:00,LOGIN_SUCCESS,carol,10.0.0.6,normal login
+2024-01-15 10:23:45,LOGIN_FAIL,alice,192.168.1.10,bad password
+2024-01-15 10:24:10,LOGIN_FAIL,alice
+2024-01-15 25:99:99,LOGIN_FAIL,bob,10.0.0.1,bad password
+
+2024-01-15 10:25:00,LOGIN_SUCCESS,alice,192.168.1.10,ok
